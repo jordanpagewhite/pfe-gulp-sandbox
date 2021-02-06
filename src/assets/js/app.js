@@ -1,5 +1,6 @@
 import axios from 'axios';
 
+/*
 window.addEventListener('load', () => {
 
   const api = 'http://www.colr.org/json/color/random';
@@ -24,3 +25,4 @@ window.addEventListener('load', () => {
   setInterval(randomColor, 8000);
 
 });
+*/
