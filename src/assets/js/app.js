@@ -1,4 +1,6 @@
 import axios from 'axios';
+import '@webcomponents/custom-elements';
+import '@webcomponents/webcomponentsjs';
 
 /*
 window.addEventListener('load', () => {

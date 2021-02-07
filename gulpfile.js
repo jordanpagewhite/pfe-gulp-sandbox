@@ -171,7 +171,10 @@ gulp.task('dev', gulp.series('html', 'twig', 'sass', 'less', 'stylus', 'js'));
 gulp.task('serve', () => {
   return browserSync.init({
     server: {
-      baseDir: [ 'dist' ]
+      baseDir: [ 'dist' ],
+      routes: {
+          "/node_modules": "node_modules"
+      }
     },
     port: 3000,
     open: false

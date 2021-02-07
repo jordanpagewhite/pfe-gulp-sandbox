@@ -59,6 +59,13 @@
   },
   "dependencies": {
     "@patternfly/patternfly": "^4.80.3",
+    "@patternfly/pfe-band": "^1.1.1",
+    "@patternfly/pfe-card": "^1.1.1",
+    "@patternfly/pfe-cta": "^1.1.1",
+    "@patternfly/pfe-navigation": "^1.1.1",
+    "@patternfly/pfe-styles": "^1.1.1",
+    "@webcomponents/custom-elements": "^1.4.3",
+    "@webcomponents/webcomponentsjs": "^2.5.0",
     "axios": "^0.19.2",
     "fs": "0.0.1-security",
     "fs-extra": "^9.1.0",
